@@ -3,7 +3,7 @@ public class Hola{
         
         for(int i=0; i<=50; i++){
             try{
-                Thread.sleep(500);
+                Thread.sleep(400);
                 System.out.println("Desencriptando..." + i+"%");
             }catch(InterruptedException e){
                 System.out.println("Error en parar el programa "+ e);
